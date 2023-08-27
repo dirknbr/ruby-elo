@@ -11,6 +11,8 @@ I have updated the ELO function a bit to take into account the match score.
 
 Note that the point difference is distributed as $N(5, 20^2)$
 
+The ELO ranking is very similar to the [official ranking](https://www.world.rugby/tournaments/rankings/mru)
+
 ## Ranking 
 
 (525.1923181277855, 'New Zealand')
