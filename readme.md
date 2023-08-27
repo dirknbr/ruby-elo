@@ -7,6 +7,10 @@ rugby nations in the world.
 - utils.py: some ELO functions
 - calc_rating.py: use the match data to calculate ELO
 
+I have updated the ELO function a bit to take into account the match score.
+
+Note that the point difference is distributed as $N(5, 20^2)$
+
 ## Ranking 
 
 (525.1923181277855, 'New Zealand')
