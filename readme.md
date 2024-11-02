@@ -1,6 +1,6 @@
 # International Rugby ELO ranking & Investec Cup
 
-We use about 300 head to head games to calculate the ELO rating for the top 15
+We use about 400 head to head games to calculate the ELO rating for the top 15
 rugby nations in the world.
 
 - data.py: get match data from rugbypass
@@ -10,29 +10,29 @@ rugby nations in the world.
 
 I have updated the ELO function a bit to take into account the match score.
 
-Note that the point difference is distributed as $N(5, 20^2)$
+Note that the point difference is distributed as $N(5, 21.5^2)$
 
 The ELO ranking is very similar to the [official ranking](https://www.world.rugby/tournaments/rankings/mru)
 
 ## Ranking 
 
-(525.1923181277855, 'New Zealand')
-(519.9448202174954, 'Ireland')
-(501.59978945294995, 'South Africa')
-(474.66536763052613, 'France')
-(454.12017717364716, 'Scotland')
-(433.493004415046, 'England')
-(403.27046170830346, 'Australia')
-(378.88084486591293, 'Wales')
-(361.9215578609213, 'Fiji')
-(359.11074359858026, 'Argentina')
-(339.90522344396925, 'Samoa')
-(337.13705592623586, 'Japan')
-(320.0803308618492, 'Tonga')
-(306.43724969682455, 'Georgia')
-(284.2410550199534, 'Italy')
+605.3 Ireland
+576.9 South Africa
+570.6 New Zealand
+523.9 France
+447.0 England
+433.2 Scotland
+410.4 Fiji
+380.0 Argentina
+374.4 Australia
+319.9 Wales
+294.7 Italy
+289.1 Samoa
+275.6 Georgia
+264.9 Japan
+234.0 Tonga
 
-Last updated: Aug 2023
+Last updated: Nov 2024
 
 ## Investec ranking
 
